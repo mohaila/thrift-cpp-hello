@@ -1,4 +1,4 @@
-# Simple C++ Server using Thrift
+# Simple C++ Server/Client using Thrift
 The project is compiled on an Ubuntu 18.04.<br>
 The Thrift service has only one method hello..<br>
 The Thrift generated code is in source/pkg/gen-cpp.<br>
@@ -55,6 +55,6 @@ Incoming connection
 	PeerAddress: ::ffff:127.0.0.1
 	PeerPort: 38892
 ```
-To use Docker image, the client and server code must be modified to use envorinment variables or any other method to find the server/client host and port instead pf localhost.<br>
+To use Docker images, the client and server code must be modified to use envorinment variables or any other method to find the server/client host and port instead pf localhost.<br>
 If you deploy the server and client Docker images in a Kubernetes Pod, they can communicate using localhost.
 
