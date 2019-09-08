@@ -1,0 +1,3 @@
+FROM scratch
+ADD build/bin/helloclient /helloclient
+CMD ["/helloclient"]
